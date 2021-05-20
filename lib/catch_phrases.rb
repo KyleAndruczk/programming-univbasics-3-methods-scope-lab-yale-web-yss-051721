@@ -9,6 +9,12 @@ def toadstool
 end
 
 def all_phrases
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-  puts status
+  link = "It's Dangerous To Go Alone! Take This."
+  puts link 
+end
+
+def all_phrases
+  mario 
+  toadstool
+  all_phrases
 end
